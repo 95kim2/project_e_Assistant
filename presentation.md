@@ -8,7 +8,7 @@
     출결 알림e
 
 ## 문제 제기 
-<p align="center"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/nowproblem.jpg" width="400" height="300"></p>
+<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/nowproblem.jpg" width="400" height="300"></p>
 
 * 현재 많은 대학에서 사용하는 학생증을 이용한 출결관리는 학생들의 지지를 받지 못함 
 
