@@ -69,16 +69,16 @@
 ## Developers
 * 김성희 
 
-<p align="center"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_sung_hee.jpg" width="400" height="300"></p>
+<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_sung_hee.jpg" width="400" height="300"></p>
 
 -서버 및 데이터 관리(commiter)
 
 * 김준석
-<p align="center"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_jun_seok.jpg" width="400" height="300"></p>
+<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_jun_seok.jpg" width="400" height="300"></p>
 -어플리케이션 개발
 
 * 홍석윤
-<p align="center"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/hong_seok_yoon.jpg" width="400" height="300"></p>
+<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/hong_seok_yoon.jpg" width="400" height="300"></p>
 -머신러닝 
 
 ## 개발 일정(milestone)
