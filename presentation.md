@@ -46,6 +46,7 @@
     -python 기반 오픈소스 웹 프레임워크(3-clause BSD License)
     
 * MariaDB
+
     -데이터베이스 오픈소스 라이브러리(GPLv2 License, LGPLv2.1(client libraries))
 
 * PyCharm 
