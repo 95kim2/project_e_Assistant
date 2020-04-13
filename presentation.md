@@ -5,10 +5,12 @@
     모두의 e조교
 * 제품/서비스명(브랜드) :
 
-    출결 알림e
+    치즈
 
 ## 문제 제기 
 <p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/nowproblem.jpg" width="400" height="300"></p>
+
+* 과거 호명식 출석체크 시스템을 개선하기 위해 각 대학들이 전자출결 시스템을 도입
 
 * 현재 많은 대학에서 사용하는 학생증을 이용한 출결관리는 학생들의 지지를 받지 못함 
 
@@ -40,19 +42,19 @@
     -24시간 구동되는 서버 개설
 * Django 
 
-    -python 언어를 이용한 웹 서버 개설
+    -python 기반 오픈소스 웹 프레임워크(3-clause BSD License)
 
 * PyCharm 
 
-    -python 기반의 프로그래밍
+    -python 프로그래밍을 위한 IDE
 
 * OpenCV
 
-    -에서 지원하는 이미지 프로세싱에 중점을 둔 라이브러리
+    -python에서 지원하는 이미지 프로세싱에 중점을 둔 라이브러리(3-clause BSD License)
 
 * Android Studio
 
-    -안드로이드용 어플리케이션 개발 
+    -안드로이드용 어플리케이션 개발 IDE
 * Discord
 
     -개발자 회의 실시 
