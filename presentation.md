@@ -61,10 +61,6 @@
 
     -안드로이드용 어플리케이션 개발 IDE
     
-* Discord
-
-    -개발자 회의 실시 
-
 ## 시스템 구성도
 <p align="center"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/system.jpg" width="520" height="390"></p>
 
