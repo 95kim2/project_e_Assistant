@@ -75,6 +75,7 @@
 
 * 김준석
 <p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_jun_seok.jpg" width="300" height="225"></p>
+
 -어플리케이션 개발
 
 * 홍석윤
