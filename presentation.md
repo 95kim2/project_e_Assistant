@@ -40,9 +40,13 @@
 * Amazon EC2
 
     -24시간 구동되는 서버 개설
+    
 * Django 
 
     -python 기반 오픈소스 웹 프레임워크(3-clause BSD License)
+    
+* MariaDB
+    -데이터베이스 오픈소스 라이브러리(GPLv2 License, LGPLv2.1(client libraries))
 
 * PyCharm 
 
@@ -55,12 +59,13 @@
 * Android Studio
 
     -안드로이드용 어플리케이션 개발 IDE
+    
 * Discord
 
     -개발자 회의 실시 
 
 ## 시스템 구성도
-<p align="center"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/system.jpg" width="400" height="300"></p>
+<p align="center"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/system.jpg" width="520" height="390"></p>
 
 ## 기대 성과
 * 신속, 정확한 출결 
