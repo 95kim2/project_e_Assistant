@@ -5,7 +5,7 @@
     모두의 e조교
 * 제품/서비스명(브랜드) :
 
-    치즈
+    치~즈
 
 ## 문제 제기 
 <p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/nowproblem.jpg" width="400" height="300"></p>
