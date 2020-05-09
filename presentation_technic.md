@@ -10,16 +10,22 @@
    * MySQL기반 오픈소스 DB이며 라이센스가 자유롭다.
    * MySQL보다 가벼우며 완벽 호환이 된다.
 
+
 #### Django 구조 - MVT
- - Model: DB와 연결되는 부분
+
+- Model: DB와 연결되는 부분
  - View: 컨트롤하는 부분
  - Template : 사용자에게 보여지는 부분
  
+
 #### 동작원리
+
 1. 회원가입
-  * url주소 입력(app) -> View에서 Model을 거쳐 DB에 저장.
+- url주소 입력(app) -> View에서 Model을 거쳐 DB에 저장.
+
 2. 로그인
-  * url주소 입력(app) -> View는 Model로부터 회원정보 불러와서 비밀번호 일치 여부확인 하고 client에 response
+- url주소 입력(app) -> View는 Model로부터 회원정보 불러와서 비밀번호 일치 여부확인 하고 client에 response
+
 3. 졸음 판별
-  * url주소 입력(sensor) -> View는 모델 실행 후 졸음 여부 판단 후 졸았다면 졸았다는 정보 갱신.
-  * url주소 입력(app) -> View를 거쳐서 갱신된 정보를 response.
+- url주소 입력(sensor) -> View는 모델 실행 후 졸음 여부 판단 후 졸았다면 졸았다는 정보 갱신.
+- url주소 입력(app) -> View를 거쳐서 갱신된 정보를 response.
