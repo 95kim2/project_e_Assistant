@@ -21,11 +21,11 @@
 #### 동작원리
 
 1. 회원가입
-- url주소 입력(app) -> View에서 Model을 거쳐 DB에 저장.
+    - url주소 입력(app) -> View에서 Model을 거쳐 DB에 저장.
 
 2. 로그인
-- url주소 입력(app) -> View는 Model로부터 회원정보 불러와서 비밀번호 일치 여부확인 하고 client에 response
+    - url주소 입력(app) -> View는 Model로부터 회원정보 불러와서 비밀번호 일치 여부확인 하고 client에 response
 
 3. 졸음 판별
-- url주소 입력(sensor) -> View는 모델 실행 후 졸음 여부 판단 후 졸았다면 졸았다는 정보 갱신.
-- url주소 입력(app) -> View를 거쳐서 갱신된 정보를 response.
+    - url주소 입력(sensor) -> View는 모델 실행 후 졸음 여부 판단 후 졸았다면 졸았다는 정보 갱신.
+    - url주소 입력(app) -> View를 거쳐서 갱신된 정보를 response.
