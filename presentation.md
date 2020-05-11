@@ -8,7 +8,7 @@
     웨이커
 
 ## 문제 제기 
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/nowproblem.jpg" width="400" height="300"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/sleep.png" width="400" height="300"></p>
 
 * 졸음운전은 방심, 부주의에 기인할 수도 있지만 피곤에 의한 생리현상인 경우도 있는데  
     심한 경우에는 본인이 졸고 있다는 자각도 없어 도로 위의 시한폭탄이 될 수 있다.
@@ -58,7 +58,7 @@
     -안드로이드용 어플리케이션 개발 IDE
     
 ## 시스템 구성도
-<p align="center"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/system.jpg" width="520" height="390"></p>
+<p align="center"><img src="https://github.com/95kim2/project_waker/blob/master/image/system.jpg" width="520" height="390"></p>
 
 ## 기대 성과
 * 운전자의 졸음운전 방지
@@ -69,17 +69,17 @@
 ## Developers
 * 김성희 
 
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_sung_hee.jpg" width="300" height="225"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/kim_sung_hee.jpg" width="300" height="225"></p>
 
 -서버 및 데이터 관리(commiter)
 
 * 김준석
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_jun_seok.jpg" width="300" height="225"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/kim_jun_seok.jpg" width="300" height="225"></p>
 
 -어플리케이션 개발
 
 * 홍석윤
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/hong_seok_yoon.jpg" width="300" height="225"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/hong_seok_yoon.jpg" width="300" height="225"></p>
 -머신러닝(팀장) 
 
 ## 개발 일정(milestone)
