@@ -9,17 +9,17 @@
 ## Developers
 * 김성희 
 
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_sung_hee.jpg" width="100" height="75"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/kim_sung_hee.jpg" width="120" height="100"></p>
 
 -서버 및 센서 데이터 관리(commiter)
 
 * 김준석
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_jun_seok.jpg" width="100" height="75"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/kim_jun_seok.jpg" width="120" height="100"></p>
 
 -어플리케이션 개발
 
 * 홍석윤
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/hong_seok_yoon.jpg" width="100" height="75"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/hong_seok_yoon.jpg" width="120" height="100"></p>
 
 -머신러닝 기술 개발(팀장) 
 
@@ -32,7 +32,7 @@
 
 ## 시스템 구성 다이어그램
 
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/hong_seok_yoon.jpg" width="680" height="400"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/system diagram.png" width="680" height="400"></p>
 
 ### 개발 방법
 
@@ -76,7 +76,7 @@
 
 ## 센서
  ---------
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/sensor.jpg" width="150" height="150"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/sensor.jpg" width="200" height="200"></p>
  - ESP32 CAM
    * 사진을 찍고 저장할 수 있는 모듈. 카메라 센서와 마이크로 sd카드를 장착함으로서 사용할 수 있다.
  - OV2640 카메라모듈
