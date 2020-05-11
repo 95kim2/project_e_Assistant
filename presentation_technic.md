@@ -1,7 +1,33 @@
+# 카메라 센서를 이용한 졸음방지 시스템
+
+* 팀명 : 
+ 
+    졸음낚시
+* 제품/서비스명(브랜드) :
+
+    웨이커
+## Developers
+* 김성희 
+
+<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_sung_hee.jpg" width="300" height="225"></p>
+
+-서버 및 데이터 관리(commiter)
+
+* 김준석
+<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_jun_seok.jpg" width="300" height="225"></p>
+
+-어플리케이션 개발
+
+* 홍석윤
+<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/hong_seok_yoon.jpg" width="300" height="225"></p>
+
+-머신러닝(팀장) 
+=======
 ## 팀 소개
 ---------
 - 팀명: 졸음낚시
 - 서비스명: 웨어커
+
 
 ## 기계 학습
 ---------
