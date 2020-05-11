@@ -31,7 +31,7 @@
 
 ## 시스템 구성 다이어그램
 
-<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/system diagram.png" width="680" height="400"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/system diagram.PNG" width="680" height="400"></p>
 
 ### 개발 방법
 
