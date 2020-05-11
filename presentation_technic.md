@@ -76,10 +76,13 @@
 ## 센서
  ---------
 <p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/sensor.jpg" width="200" height="200"></p>
+
  - ESP32 CAM
-   * 사진을 찍고 저장할 수 있는 모듈. 카메라 센서와 마이크로 sd카드를 장착함으로서 사용할 수 있다.
+   * 사진을 찍고 저장할 수 있는 모듈. 카메라 센서와 마이크로 sd카드를 장착함으로서 사용할 수 있다
+
  - OV2640 카메라모듈
-   * ESP32 CAM에 실제로 장착하여 사용하는 카메라 센서.
+   * ESP32 CAM에 실제로 장착하여 사용하는 카메라 센서
+
  - 스마트폰 내장 GPS 센서
 
  - Arduino sketch
