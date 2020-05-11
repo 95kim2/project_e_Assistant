@@ -1,33 +1,94 @@
 # 카메라 센서를 이용한 졸음방지 시스템
 
-* 팀명 : 
- 
-    졸음낚시
-* 제품/서비스명(브랜드) :
+## 팀 소개
+---------
+- 팀명: 졸음낚시
+- 서비스명: 웨이커
 
-    웨이커
 ## Developers
 * 김성희 
 
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_sung_hee.jpg" width="300" height="225"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/kim_sung_hee.jpg" width="120" height="100"></p>
 
--서버 및 데이터 관리(commiter)
+-서버 및 센서 데이터 관리(commiter)
 
 * 김준석
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/kim_jun_seok.jpg" width="300" height="225"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/kim_jun_seok.jpg" width="120" height="100"></p>
 
 -어플리케이션 개발
 
 * 홍석윤
-<p align="left"><img src="https://github.com/95kim2/project_e_Assistant/blob/master/image/hong_seok_yoon.jpg" width="300" height="225"></p>
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/hong_seok_yoon.jpg" width="120" height="100"></p>
 
--머신러닝(팀장) 
-=======
-## 팀 소개
----------
-- 팀명: 졸음낚시
-- 서비스명: 웨어커
+-머신러닝 기술 개발(팀장) 
 
+## 제품 설명
+ ---------
+
+- 졸음운전을 방지하여 운전자를 깨워주는 시스템.
+
+- 졸음에 가까움 행위를 분석하여 해당 행위를 할 경우 휴대폰을 통해 알람을 울려 잠을 깨운 뒤 가까운 졸음쉼터를 찾아준다.
+
+## 시스템 구성 다이어그램
+
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/system diagram.png" width="680" height="400"></p>
+
+### 개발 방법
+
+- 졸음에 대한 판단재료 분석  
+
+- 해당 현상과 평소에 대한 화상 데이터 수집 후 비교 딥러닝 훈련
+
+- 운전자를 실시간으로 감시하며 졸음과 비슷한 행위가 감지될 시 알림
+
+## 서버
+ ---------
+ - Amazon EC2
+   * 프로젝트가 돌아갈 가상 컴퓨팅 환경. 
+   * 개인 키페어를 사용자가 보관하여 로그인 정보를 보호하며 보안 그룹을 사용해 연결 가능한 프로토콜, 포트, IP의 범위를 쉡게 설정 가능.
+ - Ubuntu Linux
+   * Amazon EC2 에서 실행하는 운영체제
+ - Django
+   * 센서로부터 데이터를 받아서 학습된 모델로 전달하며 애플리케이션에 졸음 여부를 전달.
+   * DB의 테이블을 객체와 연결해 쿼리없이 다룰 수 있음. (ORM(object-relational mapping)방식)
+ - MariaDB
+   * MySQL기반 오픈소스 DB이며 라이센스가 자유로움.
+   * MySQL보다 가벼우며 완벽 호환.
+
+### Django 구조 - MVT
+
+ - Model: DB와 연결되는 부분
+ - View: 컨트롤하는 부분
+ - Template : 사용자에게 보여지는 부분
+
+### 구현기술
+
+* 회원가입
+    - url주소 입력(app) -> View에서 Model을 거쳐 DB에 저장.
+
+* 로그인
+    - url주소 입력(app) -> View는 Model로부터 회원정보 불러와서 비밀번호 일치 여부확인 하고 client에 response
+
+* 졸음 판별
+    - url주소 입력(sensor) -> View는 모델 실행 후 졸음 여부 판단 후 졸았다면 졸았다는 정보 갱신.
+    - url주소 입력(app) -> View를 거쳐서 갱신된 정보를 response.
+
+## 센서
+ ---------
+<p align="left"><img src="https://github.com/95kim2/project_waker/blob/master/image/sensor.jpg" width="200" height="200"></p>
+ - ESP32 CAM
+   * 사진을 찍고 저장할 수 있는 모듈. 카메라 센서와 마이크로 sd카드를 장착함으로서 사용할 수 있다.
+ - OV2640 카메라모듈
+   * ESP32 CAM에 실제로 장착하여 사용하는 카메라 센서.
+ - 스마트폰 내장 GPS 센서
+
+ - Arduino sketch
+   * 아두이노 개발 IDE로서 편집기, 컴파일러, 업로더 등이 합쳐진 소프트웨어 환경
+
+### 구현기술
+
+* 실시간 영상 전송
+    - 카메라 센서를 통한 운전자의 사진(특히 눈)을 서버로 전송
 
 ## 기계 학습
 ---------
@@ -52,51 +113,15 @@
 * 눈 감김 정도 측정
     - Blink Detector를 사용하여 오랫동안 눈을 작게 뜨고 있을 때 졸음이라 판단.
 
-## 서버
- ---------
- - Amazon EC2
-   * 프로젝트가 돌아갈 가상 컴퓨팅 환경. 
-   * 개인 키페어를 사용자가 보관하여 로그인 정보를 보호하며 보안 그룹을 사용해 연결 가능한 프로토콜, 포트, IP의 범위를 쉡게 설정 가능.
- - Django
-   * 센서로부터 데이터를 받아서 학습된 모델로 전달하며 애플리케이션에 졸음 여부를 전달.
-   * DB의 테이블을 객체와 연결해 쿼리없이 다룰 수 있음. (ORM(object-relational mapping)방식)
- - MariaDB
-   * MySQL기반 오픈소스 DB이며 라이센스가 자유로움.
-   * MySQL보다 가벼우며 완벽 호환.
-
-### Django 구조 - MVT
-
-- Model: DB와 연결되는 부분
- - View: 컨트롤하는 부분
- - Template : 사용자에게 보여지는 부분
-
-### 구현기술
-
-* 회원가입
-    - url주소 입력(app) -> View에서 Model을 거쳐 DB에 저장.
-
-* 로그인
-    - url주소 입력(app) -> View는 Model로부터 회원정보 불러와서 비밀번호 일치 여부확인 하고 client에 response
-
-* 졸음 판별
-    - url주소 입력(sensor) -> View는 모델 실행 후 졸음 여부 판단 후 졸았다면 졸았다는 정보 갱신.
-    - url주소 입력(app) -> View를 거쳐서 갱신된 정보를 response.
-
 ## 어플리케이션
  ---------
  - Android Studio
    * 안드로이드용 어플리케이션을 제작하는데에 사용되는 개발 IDE
-   
- - ESP32 CAM
-   * 카메라 센서로서 이를 통해 운전자의 현재 상황 확인 및 전송  
-    
- - Arduino sketch
-   * 아두이노 개발 IDE로서 편집기, 컴파일러, 업로더 등이 합쳐진 소프트웨어 환경
+
+ - 카카오 네비게이션 api
+   * 차량 위치 및 근처 휴게소, 졸음쉼터 등을 확인할 네이게이션 API
 
 ### 구현기술
-
-* 실시간 영상 전송
-    - 카메라 센서를 통한 운전자의 사진(특히 눈)을 서버로 전송
 
 * 네비게이션
     - 카카오 네비게이션 api를 사용하여 운전자의 차량 현위치를 확인 및 표시 
