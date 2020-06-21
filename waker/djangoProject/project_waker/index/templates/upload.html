@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+<p>
+ <h2>Upload 페이지입니다</h2>
+</p>
+<p>
+ <div class="row">
+     <div class="col-md-8 col-sm-8">
+         <form action="."  method="post" enctype="multipart/form-data"
+               class="form-horizontal">
+             {% csrf_token %}
+             <input multiple="multiple"  type="file" name="image[]" class="form-control" required>
+             <p><table>
+               <tr>
+                 <th>
+                   <input type="submit" name=where value="open/left" class="btn btn-primary btn-sm">
+                 </th>
+                 <th>
+                   <input type="submit" name=where value="open/right" class="btn btn-primary btn-sm">
+                 </th>
+                 <th>
+                   <input type="submit" name=where value="close/left" class="btn btn-primary btn-sm">
+                 </th>
+                 <th>
+                   <input type="submit" name=where value="close/right" class="btn btn-primary btn-sm">
+                 </th>
+               </tr>
+             </table></p>
+         </form>
+     </div>
+ </div>
+</p>
+{% endblock %}
