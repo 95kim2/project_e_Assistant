@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <title>data관리</title>
+</head>
+<body>
+  <h1>Upload/Delete</h1>
+  <p>
+    <form method="POST" action=".">
+      {% csrf_token %}
+      <button type='submit' name='btn' value='upload'>Upload</button> / <button type=submit name='btn' value='delete'>Delete</button>
+    </form>
+  </p>
+  {% block content %}
+  {% endblock %}
+</body>
+</html>
